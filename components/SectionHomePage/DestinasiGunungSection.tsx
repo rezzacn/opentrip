@@ -1,12 +1,10 @@
 import { dataDestinations } from '@/lib/dataDummy';
 import { Destination } from '@/types/destinations';
 import { ArrowRight } from 'lucide-react';
-import SliderCard from '../ui/SliderCard';
+import SliderCard from '../UI/SliderCard';
 
 export default function DestinasiGunungSection() {
-  const dataDestinationsMountain = dataDestinations.filter(
-    (destination) => destination.category === 'mountain'
-  );
+  const dataDestinationsMountain = dataDestinations.filter((destination) => destination.category === 'mountain');
 
   return (
     <div className="flex flex-col justify-center items-center mx-auto container mt-24 p-2">
