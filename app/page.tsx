@@ -4,6 +4,7 @@ import DestinasiAlamSection from '@/components/SectionHomePage/DestinasiAlamSect
 import DestinasiGunungSection from '@/components/SectionHomePage/DestinasiGunungSection';
 import DestinasiLautSection from '@/components/SectionHomePage/DestinasiLautSection';
 import DestinasiPopularSection from '@/components/SectionHomePage/DestinasiPopularSection';
+import Footer from '@/components/CTA/Footer';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <DestinasiGunungSection />
       <DestinasiAlamSection />
       <CallToAction />
+      <Footer />
     </main>
   );
 }
